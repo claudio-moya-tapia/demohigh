@@ -1,0 +1,107 @@
+.grid-view-loading
+{
+	background:url(loading.gif) no-repeat;
+}
+
+.grid-view
+{
+	padding: 15px 0;
+}
+
+.grid-view table.items { background: url(bg-tabla-admin.png) top no-repeat #fff; border-collapse: collapse; width: 964px; border: 1px #D0E3EF solid; }
+
+.grid-view table.items th, .grid-view table.items td
+{
+	font-size: 0.9em;
+	border: 1px white solid;
+	padding: 0.3em;
+}
+
+.grid-view table.items th {	color: white; text-align: center; font:14px Arial, Helvetica, sans-serif;}
+.grid-view table.items td {	color: #666; font:12px Arial, Helvetica, sans-serif;}
+.grid-view table.items td .img { height:75px; width:auto;}
+
+
+.grid-view table.items th a
+{
+	color: #EEE; text-decoration: none;
+}
+
+.grid-view table.items th a:hover
+{
+	color: #FFF;
+}
+
+.grid-view table.items th a.asc
+{
+	background:url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items th a.desc
+{
+	background:url(down.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items tr.even
+{
+	background: #F8F8F8;
+}
+
+.grid-view table.items tr.odd
+{
+	background: #eee;
+}
+
+.grid-view table.items tr.selected
+{
+	background: #BCE774;
+}
+
+.grid-view table.items tr:hover.selected
+{
+	background: #CCFF66;
+}
+
+.grid-view table.items tbody tr:hover
+{
+	background: #ddd;
+}
+
+.grid-view .link-column img
+{
+	border: 0;
+}
+
+.grid-view .button-column
+{
+	text-align: center;
+	width: 60px;
+}
+
+.grid-view .button-column img
+{
+	border: 0;
+}
+
+.grid-view .checkbox-column
+{
+	width: 15px;
+}
+
+.grid-view .summary {margin:0px; text-align: right; width:964px; font:bold 12px Arial, Helvetica, sans-serif;}
+
+.grid-view .pager
+{
+	margin: 10px 20px 0 0;
+	text-align: right; font:11px Arial, Helvetica, sans-serif;
+}
+
+.grid-view .empty
+{
+	font-style: italic;
+}
+
+.grid-view .filters input {width: 95%; border: 1px solid #AAAAAA; border-radius: 8px; color: #AAAAAA; height: 28px; margin: 0; padding: 0 5px; }
+.grid-view .filters select {width: 95%; border: 1px solid #AAAAAA; border-radius: 8px; color: #AAAAAA; height: 28px; margin: 0; padding: 0px 0px 0px 5px; }
