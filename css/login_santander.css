@@ -1,0 +1,79 @@
+/*font face*/
+@font-face {
+    font-family: 'pt_sans_narrowregular';
+    src: url('fonts/ptn57f.eot');
+    src: url('fonts/ptn57f.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptn57f.woff') format('woff'),
+         url('fonts/ptn57f.ttf') format('truetype'),
+         url('fonts/ptn57f.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.clear { clear:both;}
+
+.cont-landing { width:100%; margin:0 auto; padding-bottom:20px;}
+
+.userEjemplo {display: block; position: relative;top: 25px;float: right;left: 125px;}
+
+/*paso 1*/
+.cont-landing .paso1 { width:480px; margin:0 auto; padding:10px 0px 0px 0px; background:url(../images/bg-paso1.png) 400px 100px no-repeat;}
+.cont-landing .paso1 .p { margin:0px; padding:0px;}
+.cont-landing .paso1 .p .label { margin:0px; padding:0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:30px; font-weight: lighter; width:150px; display:block; float:left;}
+.cont-landing .paso1 .p .input { width:180px; height:30px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border:1px solid #D9D9D9; float:left; margin:0px 0px 0px 20px; padding:2px 0px 0px 5px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#999; font-size:12px; font-weight: lighter;}
+.cont-landing .paso1 .botones { margin:70px 0px 0px 0px;}
+.cont-landing .paso1 .botones .ant { width:165px; height:35px; background:#666; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px 20px 0px 0px; padding:10px 0px 0px 0px;}
+.cont-landing .paso1 .botones .sig { width:165px; height:35px; background:#0077AA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px; padding:10px 0px 0px 0px;}
+
+/*paso 2*/
+.cont-landing .paso2 { width:180px; margin:0 auto; padding:10px 0px 0px 0px; background:url(../images/bg-paso2.png) 190px 425px no-repeat;}
+.cont-landing .paso2 .tit { margin:0 auto; padding:0px 0px 10px 0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:30px; font-weight: lighter; text-align:center;}
+.cont-landing .paso2 .p { margin:0px; padding:0px; text-align:left;}
+.cont-landing .paso2 .p .label { margin:0px 0px 5px 0px; padding:0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:16px; font-weight: lighter; width:150px; display:block;}
+.cont-landing .paso2 .p .input { width:180px; height:30px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border:1px solid #D9D9D9; margin:0px 0px 20px 0px; padding:2px 0px 0px 5px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#999; font-size:12px; font-weight: lighter;}
+.cont-landing .paso2 .a{ color:fff600; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:16px;text-decoration:underline; font-style:italic; text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);}
+.cont-landing .paso2 .sig { width:180px; height:35px; background:#0077AA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:40px 0px 0px 0px; padding:10px 0px 0px 0px;}
+.cont-landing .paso2 .p span {font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:16px; font-weight: lighter; color:#666;}
+
+/*paso 3*/
+.cont-landing .paso3 { width:540px; margin:0 auto; padding:10px 0px 0px 0px; background:url(../images/bg-paso1.png) 460px 185px no-repeat; height:240px;}
+.cont-landing .paso3 .p { margin:0px; padding:0px 0px 60px 0px;}
+.cont-landing .paso3 .p .label { margin:0px; padding:0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:24px; font-weight: lighter; width:220px; display:block; float:left;}
+.cont-landing .paso3 .p .input { width:180px; height:30px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border:1px solid #D9D9D9; float:left; margin:0px 0px 0px 20px; padding:2px 0px 0px 5px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#999; font-size:12px; font-weight: lighter;}
+.cont-landing .paso3 .p .label2 { margin:0px 0px 0px 260px; padding:0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:16px; font-weight: lighter; width:150px; display:block;}
+.cont-landing .paso3 .p .input2 { width:180px; height:30px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border:1px solid #D9D9D9; margin:0px 0px 0px 240px; padding:2px 0px 0px 5px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#999; font-size:12px; font-weight: lighter;}
+.cont-landing .paso3 .botones { margin:0px 0px 0px 0px;}
+.cont-landing .paso3 .botones .ant { width:165px; height:35px; background:#666; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px 20px 0px 0px; padding:10px 0px 0px 0px;}
+.cont-landing .paso3 .botones .sig { width:165px; height:35px; background:#0077AA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px; padding:10px 0px 0px 0px;}
+
+/*paso 4*/
+.cont-landing .paso4 { width:540px; margin:0 auto; padding:0px 0px 0px 0px;}
+.cont-landing .paso4 .tit { margin:0auto; padding:0px 0px 30px 0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:30px; font-weight: lighter; text-align:center;}
+.cont-landing .paso4 .p { margin:0px; padding:0px 0px 60px 0px;}
+.cont-landing .paso4 .p .label { margin:0px; padding:3px 0px 0px 0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:18px; font-weight: lighter; width:180px; display:block; float:left;}
+.cont-landing .paso4 .p input[type="button"] { width:120px; height:30px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border:1px solid #ACD373; float:left; margin:0px 0px 0px 20px; padding:2px 0px 0px 5px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#999; font-size:11px; font-weight: lighter; background:#598527; text-transform:uppercase; color:#fff; cursor:pointer;}
+.cont-landing .paso4 .p span {font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#3A602D; font-size:18px; font-weight: lighter; margin:0px 0px 0px 20px;}
+.cont-landing .paso4 .avatar { width:81px; height:100px; float:left; padding:0px 30px 10px 0px;}
+.cont-landing .paso4 .avatar .ml30 { margin-left:30px;}
+.cont-landing .paso4 .botones { margin:20px 0px 0px 0px; width:360px;}
+.cont-landing .paso4 .botones .ant { width:165px; height:35px; background:#666; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px 20px 0px 0px; padding:10px 0px 0px 0px;}
+.cont-landing .paso4 .botones .sig { width:165px; height:35px; background:#0077AA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px; padding:10px 0px 0px 0px;}
+
+/*paso 5*/
+.cont-landing .paso5 { width:960px; margin:0 auto; padding:0px 0px 0px 0px;}
+.cont-landing .paso5 .tit { margin:0auto; padding:0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:30px; font-weight: lighter; text-align:center;}
+.cont-landing .paso5 .caja { width:480px; height:280px; float:left;}
+.cont-landing .paso5 .caja img { float:left;}
+.cont-landing .paso5 .caja p {font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:18px; font-weight: lighter; margin:0px; padding:40px 10px 0px 10px; float:left; width:200px;}
+.cont-landing .paso5 .botones { margin:30px auto; width:350px;}
+.cont-landing .paso5 .botones .ant { width:165px; height:35px; background:#666; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px 20px 0px 0px; padding:10px 0px 0px 0px;}
+.cont-landing .paso5 .botones .sig { width:165px; height:35px; background:#0077AA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px; padding:10px 0px 0px 0px;}
+
+/*paso 6*/
+.cont-landing .paso6 { width:100%; margin:0 auto; padding:0px 0px 0px 0px;  }
+.cont-landing .paso6 .cb { background:url(../images/bg-paso6.png) top center no-repeat; height:569px;}
+.cont-landing .paso6 .cb .tit { margin:0auto; padding:0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#17303B; font-size:30px; font-weight: lighter; text-align:center;}
+.cont-landing .paso6 .cb .botones { margin:30px auto; width:520px; padding:445px 0px 0px 0px;}
+.cont-landing .paso6 .cb .botones .bases { width:200px; height:37px; background:#478515; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:0px 20px 0px 0px; padding:13px 0px 0px 0px;}
+.cont-landing .paso6 .cb .botones .txt-bases { float:left; margin:0px; padding:10px 0px 0px 0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:21px; font-weight: lighter; color:#17303B; width:300px; text-align:right;}
+.cont-landing .paso6 .cb .botones .comenzar { width:225px; height:35px; background:#0077AA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; text-decoration:none; float:left; color:#FFF; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:18px; font-weight: lighter; margin:40px 0px 0px 150px; padding:10px 0px 0px 0px; text-transform:uppercase;}

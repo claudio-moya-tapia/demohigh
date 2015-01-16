@@ -1,0 +1,87 @@
+body { margin:0px; padding:0px;}
+* { margin:0px; padding:0px;}
+.clear { clear:both;}
+.content { width:320px; margin:0 auto;}
+
+/*header*/
+.header { width:300px; margin:0 auto; position:relative; height:120px; padding:10px 0px 0px 0px;}
+.header .logo { width:128px; height:120px; background:url(../images/skchile/logo-mobile.jpg) no-repeat; float:left;}
+.header ul { float:right; width:auto; height:30px; list-style:none; padding:30px 0px 0px 0px;}
+.header ul li { float:left;  margin:0px 0px 0px 20px; position:relative; background-color:#ccc; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+.header ul li a { display:block; width:30px; height:30px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;  }
+.header ul li a:hover {background-color:#666666; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+.header ul .active {background-color:#666666;}
+.header .btn-salir a{ width:85px; height:15px; position: absolute; top:0px; right:0px; background:#666666; -webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px; -moz-border-radius-bottomright: 6px; -moz-border-radius-bottomleft: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; font:bold 10px Arial, Helvetica, sans-serif; color:#FFF; text-decoration:none; text-align:center;}
+.header .btn-salir a:hover { background:#2E75A9;}
+.header ul .home a{ background-image:url(../images/ico-home.png); background-repeat:no-repeat; background-position:center;}
+.header ul .ranking a{ background-image:url(../images/ico-ranking.png); background-repeat:no-repeat; background-position:center;}
+.header ul .news a{ background-image:url(../images/ico-noticias.png); background-repeat:no-repeat; background-position:center;}
+
+/*partidos del día*/
+.cont-pdd {width:300px; height:460px; background:#EEEEEE; margin:20px 0px 0px 10px; position:relative; padding:40px 0px 0px 0px;}
+.cont-pdd h1 { font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#fff; font-size:14px; font-style:italic; font-weight:lighter; background: url(../images/bg-h1.png) no-repeat; position:absolute; top:10px; left:-10px; width:130px; height:30px; text-align:right; padding:1px 5px 0px 0px;}
+.cont-pdd .par { width:230px; text-align:center; padding:0px 0px 16px 0px; margin:0 auto;}
+.cont-pdd .par .tit { font:12px Arial, Helvetica, sans-serif; color:#666666;}
+.cont-pdd .par .hr { font:11px Arial, Helvetica, sans-serif; color:#999; padding:0px 0px 5px 0px;}
+.cont-pdd .par input { width:40px; height:20px; border:1px solid #CCCCCC; background:#fff; font:12px Arial, Helvetica, sans-serif; color:#666; text-align:center;}
+.cont-pdd .par span { font:12px Arial, Helvetica, sans-serif; color:#666;}
+.cont-pdd .par .img1 { float:left;}
+.cont-pdd .par .img2 { float:right;}
+.cont-pdd .par table { width:230px; margin:0 auto; padding:0px; background:transparent; text-align:center;}
+.cont-pdd .par table th { font:11px Arial, Helvetica, sans-serif; color:#999; height:18px; background:transparent; margin:0px; padding:0px; vertical-align:bottom;}
+.cont-pdd .par table td { height:5px; margin:0px; padding:0px;}
+.cont-pdd .par table .td1 { background:#AAAAAA;}
+.cont-pdd .par table .td2 { background:#DDDDDD;}
+.cont-pdd .par table .td3 { background:#666;}
+
+/*Ranking empresa*/
+.cont-rank {width:300px; height:267px; background:#EEEEEE; margin:20px 0px 0px 10px; position:relative; padding:40px 0px 0px 0px;}
+.cont-rank h1 { font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#fff; font-size:14px; font-style:italic; font-weight:lighter; background: url(../images/bg-h1.png) no-repeat; position:absolute; top:10px; left:-10px; width:130px; height:30px; text-align:right; padding:1px 5px 0px 0px;}
+.cont-rank .pos { width:280px; text-align:left; margin:10px 0px 0px 10px;}
+.cont-rank .pos .text { width:120px; float:left;}
+.cont-rank .pos .text p { font:14px Arial, Helvetica, sans-serif; color:#666666; margin:0px; padding:20px 0px 0px 0px; width:120px;}
+.cont-rank .pos .text p span { font-size:11px;}
+.cont-rank .pos .ci { float:left; width:72px; height:66px; border:1px solid #FFF; overflow:hidden; margin:0px 0px 5px 0px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+.cont-rank .pos .ci img { width:72px; height:auto;}
+.cont-rank .pos .lugar { width:67px; height:28px; background:url(../images/bg-lugar.png) no-repeat; margin:18px 0px 0px 0px; padding:3px 0px 0px 0px; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:20px; color:#FFF; text-align:center; float:left;}
+.cont-rank .btn-mas { width:20px; height:15px; background:#666666; -webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px; -moz-border-radius-bottomright: 6px; -moz-border-radius-bottomleft: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; position:absolute; right:0px; bottom:-15px; text-align:center; }
+.cont-rank .btn-mas a {color:#FFF; text-decoration:none; margin:0px 0px 0px 0px; font:bold 14px Arial, Helvetica, sans-serif; display:block;}
+
+/*Noticias*/
+.cont-noti {width:300px; background:#EEEEEE; margin:30px 0px 0px 10px; position:relative; padding:40px 0px 0px 0px;}
+.cont-noti h1 { font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; color:#fff; font-size:14px; font-style:italic; font-weight:lighter; background: url(../images/bg-h1.png) no-repeat; position:absolute; top:10px; left:-10px; width:130px; height:30px; text-align:right; padding:1px 5px 0px 0px;}
+.cont-noti .c-noti { width:270px; padding:10px 10px 0px 10px; background:url(../images/bullet-noticias.png) no-repeat; background-position:right;}
+.cont-noti .c-noti .ci {float:left; width:72px; height:66px; border:1px solid #FFF; overflow:hidden; margin:0px 0px 5px 0px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+.cont-noti .c-noti .ci img { width:72px; height:auto; border:none;}
+.cont-noti .c-noti .ctexto {float:left; width:180px; padding:10px 0px 0px 10px;}
+.cont-noti .c-noti .ctexto .tit { font:bold 14px Arial, Helvetica, sans-serif; color:#666; text-decoration:none;}
+.cont-noti .c-noti .ctexto .tit:hover { text-decoration:underline;}
+.cont-noti .c-noti .ctexto .text { font:12px Arial, Helvetica, sans-serif; color:#666; text-decoration:none;}
+.cont-noti .c-noti .ctexto .text:hover { text-decoration:underline;}
+.cont-noti .separador { background:url(../images/separador-noticias.png) no-repeat; height:2px; margin:10px 0px 0px 0px;}
+.cont-noti .c-noti-sec { width:270px; padding:10px 10px 0px 10px; background:url(../images/bullet-noticias.png) no-repeat; background-position:right;}
+.cont-noti .c-noti-sec .ctexto {width:270px; padding:0px 0px 0px 10px;}
+.cont-noti .c-noti-sec .ctexto .tit { font:bold 14px Arial, Helvetica, sans-serif; color:#666; text-decoration:none;}
+.cont-noti .c-noti-sec .ctexto .tit:hover { text-decoration:underline;}
+.cont-noti .c-noti-sec .ctexto .text { font:12px Arial, Helvetica, sans-serif; color:#666; text-decoration:none;}
+.cont-noti .c-noti-sec .ctexto .text:hover { text-decoration:underline;}
+.cont-noti .btn-mas { width:20px; height:15px; background:#666666; -webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px; -moz-border-radius-bottomright: 6px; -moz-border-radius-bottomleft: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; position:absolute; right:0px; bottom:-15px; text-align:center; }
+.cont-noti .btn-mas a {color:#FFF; text-decoration:none; margin:0px 0px 0px 0px; font:bold 14px Arial, Helvetica, sans-serif; display:block;}
+
+/*footer*/
+.footer { width:320px; height:200px; margin:20px auto; background:url(../images/bg-footer.jpg) no-repeat;}
+.footer .caja {width:318px; background:url(../images/skchile/logos-pie-skchile-2.jpg) no-repeat #4D4F53; border:1px solid #959595; height:50px; text-align:center; padding:3px 0px 0px 0px; background-position:center; margin:120px 0px 0px 0px; float:left;}
+
+/*login*/
+.cont-form { width:298px; height:338px; margin:0 auto; padding:0px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border:1px solid #eee; text-align:center; }
+.cont-form .tit { margin:0px; padding:30px 0px 0px 0px; text-align:center; font-family:'pt_sans_narrowregular',Arial,Helvetica,sans-serif; font-size:16px; color:#333; font-weight:lighter;}
+.cont-form input { width:228px; height:28px; margin:0px; padding:0px 5px; border:1px solid #AAAAAA; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; color:#aaa; }
+.cont-form .mt40 { margin-top:40px;}
+.cont-form .btn-ingresar input{width:240px; height:40px; background:#666; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display:block; font:16px Arial, Helvetica, sans-serif; color:#FFF; margin:0 auto; text-align:center; padding:0px 0px 0px 0px; text-decoration:none; transition:all 0.9s ease 0s; border:none; cursor:pointer;}
+.cont-form .errorMessage {font: 11px Arial, Helvetica, sans-serif; color:#999;}
+.recordar { width:auto; margin:5px 0px 0px 110px;}
+.recordar label { float:left; font:12px Arial, Helvetica, sans-serif; margin:6px 0px 0px 0px; color:#999;}
+.recordar input { float:left; width:15px; height:15px; margin:5px 5px 0px 0px;}

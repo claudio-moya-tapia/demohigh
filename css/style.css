@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+body { margin:0px; padding:0px;}
+
+a { outline:none;}
+
+.clear { clear:both;}
+
+.contenedor { margin:0 auto; width:984px;}
+
+#header { width:984px; height:150px; background:url(../images/bg-header.jpg) no-repeat; position:fixed; z-index:100; background-color:#FFF; top:0px;}
+
+.logo { padding:38px 0px 0px 20px; float:left; width:122px; height:106px;}
+
+#header ul { margin:0px; padding:67px 0px 0px 0px; float:right;}
+
+#header ul li { margin:0px 45px 0px 0px; padding:0px; float:left; list-style:none; font:12px Arial, Helvetica, sans-serif; color:#17303B; }
+
+#header ul li a { text-decoration:none; color:#17303B;}
+
+#header ul li a:hover { border-bottom:2px solid #881E18}
+
+.select { border-bottom:2px solid #881E18; font-style:italic!important;}
+
+.caja-ico { width:150px; float:left; padding:50px 0px 0px 0px; text-align:center; margin:0px 45px; }
+
+.caja-ico p { font:14px Arial, Helvetica, sans-serif; color:#5E7A8A; padding:0px; margin:0px;}
+
+.caja-ico img { border:none; margin:0px 0px 20px 0px;}
+
+#que-es { padding:30px 0px 50px 0px; border-bottom: 1px solid #E9E9E9; display:block;}
+
+#clientess { padding:40px 0px 30px 0px; text-align:center; display:block;}
+
+.desa { position:absolute; top:360px; left:24.4%; font-size:11px;}
+
+.desa a { background:url(../images/rayalab.png) no-repeat; width:49px; display:block; height:25px; position:absolute; top:-10px; right:-50px;}
+
+.confirm { font-size:12px; display:none; }
+
+.tagline { float:left; font:italic 12px Arial, Helvetica, sans-serif; padding:55px 0px 0px 150px; color:#5E7A8A; }
+
+.consulta { font:italic 13px Arial, Helvetica, sans-serif; padding:0px 0px 0px 70px;}
+
+
+
+.etiqueta-pro a { background:url(../images/etiqueta-pro-hm.png) no-repeat; display:block; width:179px; height:30px; position:absolute; top:-1px; right:45px; z-index:1000;}
+
+.prensa { width:850px; margin:0 auto; padding:0px 0px 50px 0px;}
+.prensa .tit { width:400px; height:44px; margin:0 auto; background:url(../images/mundialero-prensa-titulo.jpg) no-repeat; padding:0px 0px 40px 0px;}
+.prensa .btn-ger a { width:132px; height:23px; display:block; background:url(../images/logo-gerencia.jpg) 0px 0px no-repeat; margin:0px; padding:0px; float:left;}
+.prensa .btn-ger a:hover {background:url(../images/logo-gerencia.jpg) 0px -23px no-repeat;}
+.prensa .btn-ccl a { width:115px; height:37px; display:block; background:url(../images/logo-canal-cl.jpg) 0px 0px no-repeat; margin:0px 50px 0px 60px; padding:0px; float:left;}
+.prensa .btn-ccl a:hover {background:url(../images/logo-canal-cl.jpg) 0px -37px no-repeat;}
+.prensa .btn-pub a { width:120px; height:34px; display:block; background:url(../images/logo-publimetro.jpg) 0px 0px no-repeat; margin:0px; padding:0px; float:left;}
+.prensa .btn-pub a:hover {background:url(../images/logo-publimetro.jpg) 0px -34px no-repeat;}
+.prensa .btn-mer a { width:165px; height:17px; display:block; background:url(../images/logo-elmercurio.jpg) 0px 0px no-repeat; margin:0px; padding:0px; float:left;  opacity:0.7; margin:0px 0px 0px 50px;}
+.prensa .btn-mer a:hover { opacity: 1;}
+.prensa .btn-terra a { width:116px; height:45px; display:block; background:url(../images/logo-terra.jpg) 0px 0px no-repeat; padding:0px; float:right; margin:-10px 0px 20px 0px; display:block;}
+.prensa .btn-terra a:hover {background:url(../images/logo-terra.jpg) 0px -45px no-repeat;}
+.prensa .btn-mostrador a { width:137px; height:20px; display:block; background:url(../images/logo-elmostrador.jpg) 0px 0px no-repeat; padding:0px; float:leftt; margin:20px 0px 0px 0px; display:block;}
+.prensa .btn-mostrador a:hover {background:url(../images/logo-elmostrador.jpg) 0px -20px no-repeat;}
